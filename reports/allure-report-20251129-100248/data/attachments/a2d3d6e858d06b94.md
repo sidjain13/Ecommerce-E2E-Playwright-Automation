@@ -1,0 +1,118 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e5]:
+    - generic [ref=e7]:
+      - link "Automation Automation Practice":
+        - /url: ""
+        - generic [ref=e8] [cursor=pointer]:
+          - heading "Automation" [level=3] [ref=e9]
+          - paragraph [ref=e10]: Automation Practice
+    - text: 
+    - list [ref=e11]:
+      - listitem [ref=e12] [cursor=pointer]:
+        - button " HOME" [ref=e13]:
+          - generic [ref=e14]: 
+          - text: HOME
+      - listitem
+      - listitem [ref=e15] [cursor=pointer]:
+        - button " ORDERS" [ref=e16]:
+          - generic [ref=e17]: 
+          - text: ORDERS
+      - listitem [ref=e18] [cursor=pointer]:
+        - button " Cart" [ref=e19]:
+          - generic [ref=e20]: 
+          - text: Cart
+      - listitem [ref=e21] [cursor=pointer]:
+        - button "Sign Out" [ref=e22]:
+          - generic [ref=e23]: 
+          - text: Sign Out
+  - generic [ref=e26]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: ZARA COAT 3
+      - generic [ref=e32]: $ 11500
+      - generic [ref=e33]: "Quantity: 1"
+      - list [ref=e35]:
+        - listitem [ref=e36]: Apple phone
+    - generic [ref=e39]:
+      - generic [ref=e40]: Payment Method
+      - generic [ref=e41]:
+        - generic [ref=e42] [cursor=pointer]: Credit Card
+        - generic [ref=e43] [cursor=pointer]: Paypal
+        - generic [ref=e44] [cursor=pointer]: SEPA
+        - generic [ref=e45] [cursor=pointer]: Invoice
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: Personal Information
+          - generic [ref=e50]:
+            - generic [ref=e52]:
+              - generic [ref=e53]: Credit Card Number
+              - textbox [ref=e54]: 4542 9931 9292 2293
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: Expiry Date
+                - combobox [ref=e58]:
+                  - option "01" [selected]
+                  - option "02"
+                  - option "03"
+                  - option "04"
+                  - option "05"
+                  - option "06"
+                  - option "07"
+                  - option "08"
+                  - option "09"
+                  - option "10"
+                  - option "11"
+                  - option "12"
+                - combobox [ref=e59]:
+                  - option "01"
+                  - option "02"
+                  - option "03"
+                  - option "04"
+                  - option "05"
+                  - option "06"
+                  - option "07"
+                  - option "08"
+                  - option "09"
+                  - option "10"
+                  - option "11"
+                  - option "12"
+                  - option "13"
+                  - option "14"
+                  - option "15"
+                  - option "16" [selected]
+                  - option "17"
+                  - option "18"
+                  - option "19"
+                  - option "20"
+                  - option "21"
+                  - option "22"
+                  - option "23"
+                  - option "24"
+                  - option "25"
+                  - option "26"
+                  - option "27"
+                  - option "28"
+                  - option "29"
+                  - option "30"
+                  - option "31"
+              - generic [ref=e60]:
+                - generic [ref=e61]: CVV Code ?
+                - textbox [ref=e62]
+            - generic [ref=e64]:
+              - generic [ref=e65]: Name on Card
+              - textbox [ref=e66]
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e69]: Apply Coupon
+                - textbox [ref=e70]
+              - button "Apply Coupon" [ref=e73] [cursor=pointer]
+        - generic [ref=e74]:
+          - generic [ref=e75]: Shipping Information
+          - generic [ref=e77]:
+            - generic [ref=e78]: c1@c1.com
+            - textbox [ref=e79]: c1@c1.com
+            - textbox "Select Country" [ref=e82]
+            - generic [ref=e84] [cursor=pointer]: Place Order
+```

@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e5]:
+    - generic [ref=e7]:
+      - link "Automation Automation Practice":
+        - /url: ""
+        - generic [ref=e8] [cursor=pointer]:
+          - heading "Automation" [level=3] [ref=e9]
+          - paragraph [ref=e10]: Automation Practice
+    - text: 
+    - list [ref=e11]:
+      - listitem [ref=e12] [cursor=pointer]:
+        - button " HOME" [ref=e13]:
+          - generic [ref=e14]: 
+          - text: HOME
+      - listitem
+      - listitem [ref=e15] [cursor=pointer]:
+        - button " ORDERS" [ref=e16]:
+          - generic [ref=e17]: 
+          - text: ORDERS
+      - listitem [ref=e18] [cursor=pointer]:
+        - button " Cart" [ref=e19]:
+          - generic [ref=e20]: 
+          - text: Cart
+      - listitem [ref=e21] [cursor=pointer]:
+        - button "Sign Out" [ref=e22]:
+          - generic [ref=e23]: 
+          - text: Sign Out
+  - generic [ref=e24]:
+    - heading "Your Orders" [level=1] [ref=e25]
+    - table [ref=e26]:
+      - rowgroup [ref=e27]:
+        - row "Order Id Product Image Name Price Ordered Date View Delete" [ref=e28]:
+          - columnheader "Order Id" [ref=e29]
+          - columnheader "Product Image" [ref=e30]
+          - columnheader "Name" [ref=e31]
+          - columnheader "Price" [ref=e32]
+          - columnheader "Ordered Date" [ref=e33]
+          - columnheader "View" [ref=e34]
+          - columnheader "Delete" [ref=e35]
+      - rowgroup [ref=e36]:
+        - row "692a76d55008f6a90941451f ADIDAS ORIGINAL $ 11500 Sat Nov 29 View Delete" [ref=e37]:
+          - rowheader "692a76d55008f6a90941451f" [ref=e38]
+          - cell [ref=e39]:
+            - img [ref=e40]
+          - cell "ADIDAS ORIGINAL" [ref=e41]
+          - cell "$ 11500" [ref=e42]
+          - cell "Sat Nov 29" [ref=e43]
+          - cell "View" [ref=e44]:
+            - button "View" [ref=e45] [cursor=pointer]
+          - cell "Delete" [ref=e46]:
+            - button "Delete" [ref=e47] [cursor=pointer]
+        - row "692a769b5008f6a909414310 ADIDAS ORIGINAL $ 11500 Sat Nov 29 View Delete" [ref=e48]:
+          - rowheader "692a769b5008f6a909414310" [ref=e49]
+          - cell [ref=e50]:
+            - img [ref=e51]
+          - cell "ADIDAS ORIGINAL" [ref=e52]
+          - cell "$ 11500" [ref=e53]
+          - cell "Sat Nov 29" [ref=e54]
+          - cell "View" [ref=e55]:
+            - button "View" [ref=e56] [cursor=pointer]
+          - cell "Delete" [ref=e57]:
+            - button "Delete" [ref=e58] [cursor=pointer]
+        - row "6929963e5008f6a90940401f ADIDAS ORIGINAL $ 11500 Fri Nov 28 View Delete" [ref=e59]:
+          - rowheader "6929963e5008f6a90940401f" [ref=e60]
+          - cell [ref=e61]:
+            - img [ref=e62]
+          - cell "ADIDAS ORIGINAL" [ref=e63]
+          - cell "$ 11500" [ref=e64]
+          - cell "Fri Nov 28" [ref=e65]
+          - cell "View" [ref=e66]:
+            - button "View" [ref=e67] [cursor=pointer]
+          - cell "Delete" [ref=e68]:
+            - button "Delete" [ref=e69] [cursor=pointer]
+        - row "692996305008f6a909403f13 ADIDAS ORIGINAL $ 11500 Fri Nov 28 View Delete" [ref=e70]:
+          - rowheader "692996305008f6a909403f13" [ref=e71]
+          - cell [ref=e72]:
+            - img [ref=e73]
+          - cell "ADIDAS ORIGINAL" [ref=e74]
+          - cell "$ 11500" [ref=e75]
+          - cell "Fri Nov 28" [ref=e76]
+          - cell "View" [ref=e77]:
+            - button "View" [ref=e78] [cursor=pointer]
+          - cell "Delete" [ref=e79]:
+            - button "Delete" [ref=e80] [cursor=pointer]
+        - row "692996135008f6a909403dbc ADIDAS ORIGINAL $ 11500 Fri Nov 28 View Delete" [ref=e81]:
+          - rowheader "692996135008f6a909403dbc" [ref=e82]
+          - cell [ref=e83]:
+            - img [ref=e84]
+          - cell "ADIDAS ORIGINAL" [ref=e85]
+          - cell "$ 11500" [ref=e86]
+          - cell "Fri Nov 28" [ref=e87]
+          - cell "View" [ref=e88]:
+            - button "View" [ref=e89] [cursor=pointer]
+          - cell "Delete" [ref=e90]:
+            - button "Delete" [ref=e91] [cursor=pointer]
+        - row "6929960a5008f6a909403d18 ADIDAS ORIGINAL $ 11500 Fri Nov 28 View Delete" [ref=e92]:
+          - rowheader "6929960a5008f6a909403d18" [ref=e93]
+          - cell [ref=e94]:
+            - img [ref=e95]
+          - cell "ADIDAS ORIGINAL" [ref=e96]
+          - cell "$ 11500" [ref=e97]
+          - cell "Fri Nov 28" [ref=e98]
+          - cell "View" [ref=e99]:
+            - button "View" [ref=e100] [cursor=pointer]
+          - cell "Delete" [ref=e101]:
+            - button "Delete" [ref=e102] [cursor=pointer]
+    - generic [ref=e103]: "* If orders Will be more than 7 your last order will get deleted"
+  - generic [ref=e105]:
+    - button "Go Back to Shop" [ref=e106] [cursor=pointer]
+    - button "Go Back to Cart" [ref=e107] [cursor=pointer]
+```

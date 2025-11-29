@@ -1,0 +1,63 @@
+[
+  {
+    "loginEmail": "a1@a1.com",
+    "loginPassword": "123456789",
+    "stateFile": "./tests/utils/user1.json",
+    "country": "India",
+    "products": [
+      {
+        "productName": "ADIDAS ORIGINAL",
+        "productAmount": "$ 11500",
+        "productId": "68a961719320a140fe1ca57c"
+      },
+      {
+        "productName": "ZARA COAT 3",
+        "productAmount": "$ 11500",
+        "productId": "68a961459320a140fe1ca57a"
+      },
+      {
+        "productName": "iphone 13 pro",
+        "productAmount": "$ 55000",
+        "productId": "68a961959320a140fe1ca57e"
+      }
+    ]
+  },
+  {
+    "loginEmail": "b1@b1.com",
+    "loginPassword": "Aa@12345",
+    "stateFile": "./tests/utils/user2.json",
+    "country": "Indonesia",
+    "products": [
+      {
+        "productName": "ADIDAS ORIGINAL",
+        "productAmount": "$ 11500",
+        "productId": "68a961719320a140fe1ca57c"
+      }
+    ]
+  },
+  {
+    "loginEmail": "c1@c1.com",
+    "loginPassword": "Aa@12345",
+    "stateFile": "./tests/utils/user3.json",
+    "country": "Afghanistan",
+    "products": [
+      {
+        "productName": "iphone 13 pro",
+        "productAmount": "$ 55000",
+        "productId": "68a961959320a140fe1ca57e"
+      },
+      {
+        "productName": "ZARA COAT 3",
+        "productAmount": "$ 11500",
+        "productId": "68a961459320a140fe1ca57a"
+      }
+    ]
+  },
+  {
+    "loginEmail": "d1@d1.com",
+    "loginPassword": "Aa@12345",
+    "stateFile": "./tests/utils/user4.json",
+    "country": "Afghanistan",
+    "products": []
+  }
+]

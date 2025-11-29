@@ -1,0 +1,37 @@
+[
+  {
+    "loginEmail": "a1@a1.com",
+    "loginPassword": "123456789",
+    "expected": "success"
+  },
+  {
+    "loginEmail": "kadfkajd",
+    "loginPassword": "123456789",
+    "expected": "invalid email"
+  },
+  {
+    "loginEmail": "",
+    "loginPassword": "123456789",
+    "expected": "empty email"
+  },
+  {
+    "loginEmail": "a1@a1.com",
+    "loginPassword": "",
+    "expected": "empty password"
+  },
+  {
+    "loginEmail": "",
+    "loginPassword": "",
+    "expected": "both empty"
+  },
+  {
+    "loginEmail": "a1000@a1000.com",
+    "loginPassword": "123456789",
+    "expected": "failure"
+  },
+  {
+    "loginEmail": "a1@a1.com",
+    "loginPassword": "123456",
+    "expected": "failure"
+  }
+]
